@@ -300,7 +300,7 @@ body {
 .project-card img {
     width: 100%;
     height: 180px;
-    object-fit: cover;
+    object-fit:fill;
     border-bottom: 2px solid #eebc6b66;
 }
 
@@ -497,7 +497,7 @@ body {
     width: 100%;
     border-radius: 12px;
     margin-top: 0.9em;
-    object-fit: cover;
+    object-fit: fill;
     box-shadow: 0 2px 16px #eebc6b44;
     border: 3px solid #232946;
     max-height: 160px;
@@ -758,3 +758,24 @@ body {
         font-size: 1.2rem;
     }
 }
+
+#copy-content{
+    font-size: 1.6rem;
+    align-items: center;
+    /* padding: 0 0.5em; */
+    color: #aa5807;
+    justify-content: center;
+    justify-items: center;
+}
+#copy{
+    /* padding-bottom: 10px; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* background-color: #5f72dc; */
+    border-radius: 10px;
+    text-align: center;
+    /* width: fit-content; */
+    justify-content: center;
+    justify-items: center;
+}
+
